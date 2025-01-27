@@ -1,13 +1,13 @@
-Secure File Encryption System
-Overview
+## Secure File Encryption System
+## Overview
 This Python project provides a robust file encryption and decryption system using AES encryption with support for ECB and CBC modes.
-Features:
+# Features:
 - AES encryption for files
 - Support for ECB and CBC encryption modes
 - Flexible key and IV handling
 - File integrity verification
 - Secure padding implementation
-Prerequisites
+# Prerequisites
 - Python 3.7+
 - cryptography library
 -PyQt5 library
@@ -27,7 +27,7 @@ check out “test” folder
 3.	Verify file integrity:
 is_intact = FileEncryptor.verify_file_integrity('input.txt', 'decrypted.txt')
 
-Security Considerations:
+# Security Considerations:
 - Use strong, unique keys and initialization vectors
 - Avoid ECB mode for sensitive data
 - Protect your encryption keys
